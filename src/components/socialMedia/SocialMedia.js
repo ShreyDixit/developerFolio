@@ -116,6 +116,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.googlescholar ? (
+        <a
+          href={socialMediaLinks.googlescholar}
+          className="icon-button google-scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-graduation-cap"></i>
+          <span></span>
+        </a>
+      ) : null}
+      
       {socialMediaLinks.kaggle ? (
         <a
           href={socialMediaLinks.kaggle}
